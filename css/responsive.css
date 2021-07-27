@@ -20,10 +20,4 @@
         padding-right: 0px;
         max-width: 100%;
     }
-    .main-list {
-        pointer-events: none;
-    }
-    .lists {
-        pointer-events: none;
-    }
 }
