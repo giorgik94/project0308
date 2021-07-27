@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .slideshow-container {
     max-width: 1360px;
     width: 100%;
@@ -21,9 +28,14 @@
     color: white;
     font-weight: bold;
     font-size: 18px;
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
     transition: 0.5s linear;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   
   /* Position the "next button" to the right */
@@ -58,6 +70,8 @@
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+    -webkit-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
   }
   

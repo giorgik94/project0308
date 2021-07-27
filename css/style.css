@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,10 +31,16 @@ body {
     max-width: 1360px;
     width: 100%;
     background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0 auto;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .navigation-wrapper {
     max-width: 800px;
@@ -36,8 +49,12 @@ body {
     padding-right: 10px;
 }
 .main-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     background-color: white;
 }
 .lists {
@@ -46,6 +63,8 @@ body {
     font-family: 'Bebas Neue';
     font-weight: bold;
     color: black;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
 .burger-wrapper {
@@ -58,10 +77,18 @@ body {
 }
 .main-list {
     height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: white;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
 }
 .active {
@@ -125,8 +152,12 @@ body {
     max-width: 1360px;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     background-color: white;
 }
 .our-vehicles-pictures {
@@ -140,9 +171,16 @@ body {
     background-color: white;
 }
 .h-p-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: white;
 }
 .h-p-wrapper {
@@ -268,8 +306,12 @@ body {
     margin-bottom: 20px;
 }
 .icons-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin:0 auto;
     max-width: 300px;
     width: 100%;
@@ -278,14 +320,20 @@ body {
 .social-icons {
     font-size: 50px;
     color: white;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 .social-icons:hover {
     color: red;
 }
 .contact-and-adress-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 1360px;
     width: 100%;
     margin: 0 auto;
@@ -301,6 +349,34 @@ textarea {
     border-color: white;
     border-width: 3px;
 }
+textarea::-webkit-input-placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+}
+textarea::-moz-placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+}
+textarea:-ms-input-placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+}
+textarea::-ms-input-placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+}
 textarea::placeholder {
     padding-left: 10px;
     padding-top: 10px;
@@ -311,17 +387,28 @@ textarea::placeholder {
 form {
     max-width: 500px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .form-wrapper {
     max-width: 500px;
     width: 100%;
 }
 .right-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .inputs {
     max-width: 200px;
@@ -331,6 +418,30 @@ form {
     border-color: white;
     border-width: 3px;
     color: white;
+}
+.inputs::-webkit-input-placeholder {
+    padding-left:5px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Bebas Neue';
+}
+.inputs::-moz-placeholder {
+    padding-left:5px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Bebas Neue';
+}
+.inputs:-ms-input-placeholder {
+    padding-left:5px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Bebas Neue';
+}
+.inputs::-ms-input-placeholder {
+    padding-left:5px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Bebas Neue';
 }
 .inputs::placeholder {
     padding-left:5px;
@@ -381,4 +492,7 @@ form {
     content: ' ALL MEDIA & INFORMATION ARE FOR SELF - TRAINING PURPOSES ONLY';
     font-size: 30px;
     font-family: 'Bebas Neue';
+}
+.empty-heading {
+    display: none;
 }

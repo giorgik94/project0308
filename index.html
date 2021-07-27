@@ -10,7 +10,7 @@
     <title>DODGE Vehicles</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/icon/dodge-icon.png" size="16x16">
+    <link rel="icon" href="images/icon/dodge-icon.png">
     <link rel="stylesheet" href="css/fonts.css">
     <script src="https://kit.fontawesome.com/b7164c86a4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/slider.css">  
@@ -46,22 +46,24 @@
         </div>
     </header>
     <section class="slider-section"> <!--სლაიდის სექცია-->
+        <h2 class="empty-heading">empty heading</h2> <!--display:none-->
         <!-- Slideshow container -->
         <div class="slideshow-container">
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                 <img src="images/slider-images/d1.jpg" style="width:100%">
+                 <img src="images/slider-images/d1.jpg" style="width:100%" alt="challenger">
                 <div class="text">CHALLENGER - WHEN YOUR IMAGINATION DOES NOT HAVE LIMITS</div>
             </div> 
-                <div class="mySlides fade">
-                <img src="images/slider-images/d2.jpg" style="width:100%">
+            <div class="mySlides fade">
+                <img src="images/slider-images/d2.jpg" style="width:100%" alt="durango">
                 <div class="text">DURANGO - THE MOST POWERFUL SUV IN THE WORLD</div>
             </div>
             <div class="mySlides fade">
-                <img src="images/slider-images/d3.jpg" style="width:100%">
+                <img src="images/slider-images/d3.jpg" style="width:100%" alt="charger">
                 <div class="text">CHARGER - TO FEEL ALL THE POWER YOU NEED FROM FULL-SIZE SEDAN</div>
             </div> 
             <!-- Next and previous buttons -->
+            <div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
