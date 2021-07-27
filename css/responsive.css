@@ -12,12 +12,70 @@
     }
     .main-navigation {
         flex-direction: column;
-        /* display: none; */
-        max-height: 250px;
+        max-height: 150px;
     }
     .navigation-wrapper {
         background: none;
         padding-right: 0px;
         max-width: 100%;
+        display: none;
+    }
+    .navigation-wrapper.activeresponsive {
+        display: block;
+    }
+    .lists {
+        font-size: 30px;
+    }
+    .vehicles-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-and-adress-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputs {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right-form {
+        max-width: 300px;
+        width: 90%;
+    }
+    .button {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    textarea {
+        margin-bottom: 10px;
+        width: 300px;
+        width: 90%;
+    }
+    .icons-wrapper {
+        max-width: 300px;
+        width: 90%;
+    }
+    .map-wrapper {
+        max-width: 500px;
+        width: 90%;
+    }
+}
+
+
+@media (max-width:515px) {
+    .text {
+        font-size: 20px;
+    }
+}
+@media (max-width:420px) {
+    .text {
+        font-size: 15px;
     }
 }
