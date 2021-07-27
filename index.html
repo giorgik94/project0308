@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="dodge,mopar,pennzoil,html,css,javascript,manuals,manual,book">
+    <meta name="description" content="dodge vehicles">
+    <meta name="author" content="Giorgi Karosanidze">
+    <title>DODGE Vehicles</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon/dodge-icon.png" size="16x16">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="https://kit.fontawesome.com/b7164c86a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/slider.css">  
+    <script src="https://kit.fontawesome.com/b7164c86a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="javascript/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <a href="index.html"><img class="dodge-logo" src="images/logo/dodge-logo.png" alt="dodge-logo"></a>
+            <nav class="navigation-wrapper" id="navigation-links-id">
+                <ul class="main-navigation">
+                    <li class="main-list home active">
+                        <a href="index.html" class="main-list-home lists active">HOME</a>
+                    </li>
+                    <li class="main-list our-vehicles">
+                        <a href="#our-vehicles-id" class="main-list-our-vehicles lists">OUR VEHICLES</a>
+                    </li>
+                    <li class="main-list oem-parts">
+                        <a href="#oem-parts-id" class="main-list-oem-parts lists">OEM PARTS</a>
+                    </li>
+                    <li class="main-list owners-manual">
+                        <a href="#owners-manual-id" class="main-list-owners-manual lists">OWNER'S MANUAL</a>
+                    </li>
+                    <li class="main-list contact">
+                        <a href="#contact-id" class="main-list-contact-us lists">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-wrapper" id="burger-wrapper-id">
+                <i class="fas fa-bars navigation-bar"></i>
+            </div>
+        </div>
+    </header>
+    <section class="slider-section"> <!--სლაიდის სექცია-->
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                 <img src="images/slider-images/d1.jpg" style="width:100%">
+                <div class="text">CHALLENGER - WHEN YOUR IMAGINATION DOES NOT HAVE LIMITS</div>
+            </div> 
+                <div class="mySlides fade">
+                <img src="images/slider-images/d2.jpg" style="width:100%">
+                <div class="text">DURANGO - THE MOST POWERFUL SUV IN THE WORLD</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/slider-images/d3.jpg" style="width:100%">
+                <div class="text">CHARGER - TO FEEL ALL THE POWER YOU NEED FROM FULL-SIZE SEDAN</div>
+            </div> 
+            <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+    <section class="video-section"> <!--ვიდეოს სექცია-->
+        <h2 class="video-heading">PENNZOIL - OIL WE TRUST</h2>
+        <p class="video-paragraph">PRODUCT THAT EQUALS THE PERFORMANCE</p>
+        <div class="video-div"> <!--ვიდეოს მშობელი დივი-->
+            <video class="video" src="media/pennzoil.mp4" controls poster="images/video-poster/pennzoil.jpg">Your browser does not support the video tag.</video>
+        </div>
+    </section>
+    <section class="our-vehicles-section" id="our-vehicles-id"> <!--ჩვენი ავტომობილების სექცია-->
+        <h2 class="our-vehicles-heading">DODGE PERFORMANCE VEHICLES</h2>
+        <p class="our-vehicles-paragraph">CHOOSE OUR BEST SELLING VEHICLES</p>
+        <div class="vehicles-wrapper"><!--ჩვენი ავტომობილების მშობელი დივი-->
+            <div class="our-vehicles-challenger our-vehicles-pictures h-p-wrapper">
+                <img class="our-vehicles-pictures vehicle-images" src="images/our-vehicles/challenger.jpg" alt="challenger">
+                <h3 class="vehicles-mini-heading">DODGE CHALLENGER - MSRP* $28,870</h3>
+            </div>
+            <div class="our-vehicles-durango our-vehicles-pictures h-p-wrapper">
+                <img class="our-vehicles-pictures vehicle-images" src="images/our-vehicles/durango.jpg" alt="durango">
+                <h3 class="vehicles-mini-heading">DODGE DURANGO - MSRP* $32.570</h3>
+            </div>
+            <div class="our-vehicles-charger our-vehicles-pictures h-p-wrapper">
+                <img class="our-vehicles-pictures vehicle-images" src="images/our-vehicles/charger.jpg" alt="charger">
+                <h3 class="vehicles-mini-heading">DODGE CHARGER - MSRP* $30,570</h3>
+            </div>
+        </div>
+    </section>
+    <section class="oem-parts-section" id="oem-parts-id"> <!--ორიგინალი ნაწილების სექცია-->
+        <h3 class="oem-parts-heading">MOPAR OEM PARTS</h3>
+        <p class="oem-parts-paragraph">ORIGINAL EQUIPMENT MANUFACTURER PARTS</p>
+        <div class="oem-parts-wrapper"> <!--ორიგინალი ნაწილების მშობელი დივი-->
+            <img class="mopar-parts-image" src="images/mopar-oem-parts/mopar-auto-parts.jpg" alt="mopar">
+            <div class="mopar-heading-and-paragraph-wrapper">
+                <h3 class="mopar-absolute-heading">FOR PARTS PLEASE VISIT <a class="mopar-link" href="https://www.mopar.com/en-us.html" target="_blank">MOPAR WEBSITE</a></h3>
+                <p class="mopar-absolute-paragraph">MOPAR IS AN ORIGINAL EQUIPMENT MANUFACTURER FOR DODGE, CHRYSLER, RAM AND JEEP VEHICLES</p>
+            </div>
+        </div>
+    </section>
+    <section class="owners-manual-section" id="owners-manual-id"> <!--ავტომობილის წიგნების სექცია-->
+        <h3 class="owners-manual-heading">OWNER's MANUAL</h3>
+        <p class="owners-mmanual-paragraph">VEHICLE OPERATING MANUAL BOOKS</p>
+        <div class="owners-manual-wrapper">
+            <img class="owners-manual-image" src="images/owners-manual/owners-manual.jpg" alt="manual">
+            <div class="owners-manual-heading-and-paragraph-wrapper">
+                <h3 class="owners-manual-absolue-heading">CLICK <a class="manual-download" href="download/dodge-manuals.zip">DOWNLOAD</a> TO GET OPERATING MANUALS</h3>
+                <p class="owners-manual-absolute-paragraph">USE MANUALS AND SAFELY OPERATE YOUR VEHICLE</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact-id"> <!--გვერდის ფუტერი-->
+        <div class="divider"></div> <!--გამყოფი დივი-->
+        <div class="icons-wrapper"> <!--აიქონების მთავარი დივი-->
+            <a href="https://www.facebook.com/dodge/" target="_blank">
+                <i class="fab fa-facebook-square facebook-icon social-icons"></i>
+            </a>
+            <a href="https://www.instagram.com/dodgeofficial/?hl=en" target="_blank">
+                <i class="fab fa-instagram-square instagram-icon social-icons"></i>
+            </a>
+            <a href="https://twitter.com/Dodge?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                <i class="fab fa-twitter-square twitter-icon social-icons"></i>
+            </a>
+            <a href="https://www.youtube.com/user/dodge" target="_blank">
+                <i class="fab fa-youtube-square youtube-icon social-icons"></i>
+            </a>
+        </div>
+        <div class="contact-and-adress-wrapper"> <!--საკონტაქტო ფორმისა და მისამართის მთავარი დივი-->
+            <div class="form-wrapper">
+                <form action="#" method="post">
+                        <label for="message"></label>
+                        <textarea name="message" id="message" placeholder="Type Your Mesaage"></textarea>
+                        <div class="empty-div-for-form">
+                            <!-- ცარიელი დივი ფორმების სფეისინგისათვის -->
+                        </div>
+                        <div class="right-form">
+                            <input class="inputs" type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <input class="inputs" type="text" id="namesurname" name="namesurname" placeholder="Name/Surname" required>
+                            <input class="inputs" type="email" id="email" name="email" placeholder="Email" required>
+                            <button type="submit" class="button">SEND</button>
+                        </div>
+                </form>
+            </div>
+            <div class="empty-div">
+                <!--ცარიელი დივი სფეისინგისათვის-->
+            </div>
+            <div class="map-wrapper"> <!--რუქის მშობელი დივი-->
+                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1550705.730220646!2d-73.927807!3d40.613954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf26c28ea2ae0ddb!2sBrooklyn%20Chrysler%20Jeep%20Dodge%20RAM!5e0!3m2!1sen!2sge!4v1627330992017!5m2!1sen!2sge" allowfullscreen="" loading="lazy"></iframe>
+            </div> 
+        </div>
+        <div class="copyright-div">
+            <i class="far fa-copyright copyright-icon"></i>
+        </div>
+    </footer>
+<script src="javascript/slider.js"></script> <!--სლაიდერის ჯავასკრიპტის source ფაილი-->
+</body>
+</html>
