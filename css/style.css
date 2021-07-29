@@ -485,7 +485,7 @@ form {
 .copyright-div {
     color: white;
     font-size: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .copyright-icon::after {
@@ -495,4 +495,11 @@ form {
 }
 .empty-heading {
     display: none;
+}
+.official-web-site {
+    font-family: 'Bebas Neue';
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
