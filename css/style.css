@@ -501,8 +501,10 @@ form {
     color: blue;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 10px;
 }
 .mopar-official {
     margin-bottom: 50px;
+}
+.official-10px {
+    margin-bottom: 10px;
 }
